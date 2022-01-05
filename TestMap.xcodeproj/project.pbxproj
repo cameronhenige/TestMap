@@ -11,6 +11,8 @@
 		F2DE92C927857347002A0833 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DE92C827857347002A0833 /* ContentView.swift */; };
 		F2DE92CB27857349002A0833 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2DE92CA27857349002A0833 /* Assets.xcassets */; };
 		F2DE92CE27857349002A0833 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2DE92CD27857349002A0833 /* Preview Assets.xcassets */; };
+		F2DE92D52785735E002A0833 /* BoxMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DE92D42785735E002A0833 /* BoxMapView.swift */; };
+		F2DE92D7278578CE002A0833 /* GeoHashConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DE92D6278578CE002A0833 /* GeoHashConverter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		F2DE92C827857347002A0833 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F2DE92CA27857349002A0833 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2DE92CD27857349002A0833 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F2DE92D42785735E002A0833 /* BoxMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxMapView.swift; sourceTree = "<group>"; };
+		F2DE92D6278578CE002A0833 /* GeoHashConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeoHashConverter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +55,12 @@
 		F2DE92C527857347002A0833 /* TestMap */ = {
 			isa = PBXGroup;
 			children = (
+				F2DE92D6278578CE002A0833 /* GeoHashConverter.swift */,
 				F2DE92C627857347002A0833 /* TestMapApp.swift */,
 				F2DE92C827857347002A0833 /* ContentView.swift */,
 				F2DE92CA27857349002A0833 /* Assets.xcassets */,
 				F2DE92CC27857349002A0833 /* Preview Content */,
+				F2DE92D42785735E002A0833 /* BoxMapView.swift */,
 			);
 			path = TestMap;
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2DE92D7278578CE002A0833 /* GeoHashConverter.swift in Sources */,
 				F2DE92C927857347002A0833 /* ContentView.swift in Sources */,
+				F2DE92D52785735E002A0833 /* BoxMapView.swift in Sources */,
 				F2DE92C727857347002A0833 /* TestMapApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
